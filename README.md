@@ -9,7 +9,7 @@ data as sound.
 Pipe data with lines of the form `seriesid frequency duration value`.
 _Seriesid_ is an opaque string, which can't contain a space, to
 identify a time series.  _Frequency_ is in Hertz, _duration_ is in
-seconds (a float).  _Value_` is an optional float that will be
+seconds (a float).  _Value_ is an optional float that will be
 displayed in a graph on the HTML page.
 
 When a line arrives at listeners' Web pages, the series frequency is
