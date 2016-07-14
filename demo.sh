@@ -13,7 +13,7 @@ go build
 	echo b $FREQ 0.5
 	sleep 0.5
 	FREQ="$((180 + RANDOM % 400))"
-	Y="$(echo $FREQ/10 | bc)"
+	Y="$((FREQ/10))"
 	echo a $FREQ 1 $Y
 	sleep $(echo "scale=3;1 + $((RANDOM % 4000))/1000.0" | bc -l)
 done) | ./soundofdata
