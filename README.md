@@ -43,7 +43,7 @@ done) | ./soundofdata
 ## Notes
 
 1. With Firefox, the audio pops some.  Doesn't on Chrome.  I don't
-   what's going on.
+   know what's going on.
 2. [Named pipes](http://linux.die.net/man/3/mkfifo) make good input
    rendezvous points.
 3. Watch out for
