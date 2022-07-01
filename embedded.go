@@ -65,6 +65,9 @@ window.onload = init;
 
 var streams = {}; // name -> gain, osc, ticker function
 
+function gesture() {
+}
+
 function tone(name, freq, dur, x) {
     var t = streams[name];
 
@@ -141,6 +144,7 @@ function createTimeline(name) {
 }
   </script>
     <script src="mon.js"></script>
+    <button onclick="gesture()">Go</button>
   </body>
 </html>
 `)

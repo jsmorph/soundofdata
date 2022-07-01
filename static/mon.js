@@ -43,6 +43,9 @@ window.onload = init;
 
 var streams = {}; // name -> gain, osc, ticker function
 
+function gesture() {
+}
+
 function tone(name, freq, dur, x) {
     var t = streams[name];
 
